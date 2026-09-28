@@ -1,0 +1,28 @@
+@font-face {
+  font-display: swap;
+  font-family: 'IBM Plex Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/ibm-plex-sans-condensed-v15-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'IBM Plex Sans Condensed';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/ibm-plex-sans-condensed-v15-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'IBM Plex Sans Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/ibm-plex-sans-condensed-v15-latin-600.woff2') format('woff2');
+}
+
+/* Keep aspect ratio for images with width/height attributes */
+:where(img[width][height]) {
+  height: auto;
+}

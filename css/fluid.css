@@ -1,0 +1,14 @@
+/* Desktop scaling: the layout is fixed at >= 1920px (1rem = 1px)
+   and shrinks proportionally below it, down to the tablet breakpoint.
+   :root beats the `html` rule in the inline embed regardless of order. */
+@media screen and (min-width: 1101px) and (max-width: 1919.98px) {
+  :root {
+    font-size: calc(100vw / 1920);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  :root {
+    font-size: 1px;
+  }
+}
